@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import img from "../assets/MainImg.jpeg";
+import img from "../iceram/CASTLE 101 CHOCOLATE ⚜️.jpeg";
 
 const MainComponent = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -52,18 +52,27 @@ const MainComponent = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative w-full h-screen bg-cover bg-center" style={{ backgroundImage: `url(${img})` }}>
+      <section className="relative w-full
+       h-100 bg-cover bg-center" style={{ backgroundImage: `url(${img})` }}>
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-50" />
 
         {/* Content Section */}
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4 sm:px-6 lg:px-8">
+        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center pt-20 text-white px-4 sm:px-6 lg:px-8">
           <h1 className="text-5xl font-bold leading-tight mb-4">
-            Welcome to Our Law Firm
+            <b>
+            Discover Our Flavors  🍦
+           
+            </b>
+            <h1 className="">
+            
+            A Taste for Every Mood...
+           
+            </h1>
           </h1>
           <p className="text-xl mb-6 max-w-2xl">
-            Experienced lawyers committed to providing expert legal services in various areas of law. Let us guide you through your legal journey with confidence and care.
-          </p>
+          From classic vanillab  ❤️ to exotic mango swirl,JH
+          we have a flavor for every mood and craving!          </p>
           <a href="#contact" className="bg-blue-600 text-white py-3 px-8 rounded-md text-lg hover:bg-blue-700 transition-all">
             Contact Us
           </a>

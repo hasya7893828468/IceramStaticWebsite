@@ -7,17 +7,13 @@ import imag5 from '../iceram/Triple Delight Banana Split.jpeg';
 
 
 
-const Row = ({name}) => {
+const MilkShake = ({name}) => {
   const img = [
     {
       title: 'Image',
-      image: imag2,
+      image: imag4,
       rate: 200,
       mrate:400
-    },
-    {
-      title: 'Image',
-      image: imag2,
     },
     {
       title: 'Image',
@@ -25,7 +21,11 @@ const Row = ({name}) => {
     },
     {
       title: 'Image',
-      image: imag4,
+      image: imag2,
+    },
+    {
+      title: 'Image',
+      image: imag5,
     },
     {
       title: 'Image',
@@ -40,7 +40,7 @@ const Row = ({name}) => {
   return (
     <div className="row ">
       <h2>{}</h2>
-      <div className="row__posters     ">
+      <div className="row__posters      ">
         {img.map(movie => (
           <>
           
@@ -73,4 +73,4 @@ const Row = ({name}) => {
   );
 };
 
-export default Row;
+export default MilkShake;

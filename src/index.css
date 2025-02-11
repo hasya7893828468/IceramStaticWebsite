@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+
+.cu{
+    margin-bottom: 50px;
+    border-radius: 120px;
+    
+}

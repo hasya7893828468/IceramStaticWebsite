@@ -46,7 +46,8 @@ const LawCategories1 = () => {
 
       <div className="relative max-w-7xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-center text-black mb-12">
-          Law Categories in Detail
+          Your Sweet Escape,
+          One Scoop at a Time
         </h2>
 
         <div className="grid md:grid-cols-3 gap-6">

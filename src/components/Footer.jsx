@@ -13,9 +13,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About Section */}
           <div>
-            <h2 className="text-2xl font-bold mb-4">LawFirm</h2>
+            <h2 className="text-2xl font-bold mb-4">Scoops of Joy</h2>
             <p className="text-gray-400">
-              Trusted legal advisors providing expert guidance in various areas of law. Protecting your rights with integrity and professionalism.
+              Indulge in the creamy delight of our handcrafted ice creams, made with the finest ingredients for a rich, velvety taste. Every scoop is a swirl of joy, bringing you the perfect blend of flavor and chill! 🍦✨
+              {' '}
             </p>
           </div>
 
